@@ -9,3 +9,21 @@ $satoshi: 'Satoshi', sans-serif;
 body {
   background-color: #BBE4F2;
 }
+
+
+// Navbar
+.nav-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  .nav-left {
+    margin-left: 10px;
+  }
+  .nav-right {
+    display: flex;
+    p {
+      margin: 10px;
+    }
+  }
+}

@@ -1,3 +1,19 @@
 body {
   background-color: #BBE4F2;
+}
+
+.nav-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+.nav-container .nav-left {
+  margin-left: 10px;
+}
+.nav-container .nav-right {
+  display: flex;
+}
+.nav-container .nav-right p {
+  margin: 10px;
 }/*# sourceMappingURL=index.css.map */
